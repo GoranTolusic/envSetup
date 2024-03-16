@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Git, Mysql client and Python
+# Git, Mysql client, python, curl, php & composer
 sudo apt-get update
 sudo apt-get install -y git
 sudo apt-get install -y git mysql-client
@@ -8,6 +8,10 @@ sudo apt-get install -y python3 python3-pip
 sudo apt install php-cli
 sudo apt-get install apache2
 sudo apt  install curl
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+sudo chmod +x /usr/local/bin/composer
+
 
 # Install visual studio code
 sudo snap install --classic code
