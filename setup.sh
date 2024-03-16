@@ -7,6 +7,7 @@ sudo apt-get install -y git mysql-client
 sudo apt-get install -y python3 python3-pip
 sudo apt-get install -y php php-cli php-mysql
 sudo apt-get install apache2
+sudo apt  install curl
 
 # Install visual studio code
 sudo snap install --classic code
