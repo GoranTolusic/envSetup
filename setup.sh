@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Git, Mysql client, python, curl, php & composer
+# Git, Mysql client, python, curl, apache, php & composer
 sudo apt-get update
 sudo apt-get install -y git
 sudo apt-get install -y git mysql-client
@@ -42,10 +42,12 @@ sudo apt-get install -y docker.io
 sudo systemctl enable docker
 
 # Docker images
-docker pull nginx
-docker pull postgres
-docker pull mysql
-docker pull emqx/emqx
+sudo docker pull nginx
+sudo docker pull postgres
+sudo docker pull mysql
+sudo docker pull emqx/emqx
+sudo docker pull redis
+
 
 # TODO: shell for running containers 
 
