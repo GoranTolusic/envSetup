@@ -52,6 +52,6 @@ sudo docker pull emqx/emqx
 sudo docker pull redis
 
 
-# TODO: shell for running containers 
+# TODO: shell for running containers and configure env files 
 
 echo "Development environment setup completed."
