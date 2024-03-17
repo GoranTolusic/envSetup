@@ -35,6 +35,7 @@ sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_
 sudo apt install pgadmin4
 
 #Dbeaver
+#add ?useSSL=false&allowPublicKeyRetrieval=true in url host when defining connection to db to avoid pk retrieval errors
 sudo snap install dbeaver-ce
 
 # Postman
