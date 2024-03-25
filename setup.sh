@@ -5,6 +5,7 @@ sudo apt-get update
 sudo apt-get install -y git
 sudo apt-get install -y git mysql-client
 sudo apt-get install -y python3 python3-pip
+sudo apt install php8.1
 sudo apt install php-cli
 sudo apt-get install apache2
 sudo apt  install curl
